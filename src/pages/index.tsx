@@ -37,7 +37,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
         >
             <h1 className="mt-36 font-bold text-4xl md:text-5xl mb-4">Hey, I'm Satveek 👋</h1>
             <p className="text-gray-800 dark:text-gray-300 leading-6 tracking-wide mb-12">
-                I'm a self-taught cloud engineer from the India. As a Cloud Engineer, I am a highly skilled professional 
+                I'm a self-taught cloud engineer from India. As a Cloud Engineer, I am a highly skilled professional 
                 dedicated to designing, implementing, and managing cloud-based solutions that empower businesses to 
                 thrive in the digital era.
             </p>
