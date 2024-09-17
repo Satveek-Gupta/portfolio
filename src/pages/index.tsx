@@ -115,9 +115,12 @@ export async function getStaticProps() {
         res.json()
     );
 
-    const topRepos = repos
-        .sort((a: Record<string, any>, b: Record<string, any>) => b.stargazers_count - a.stargazers_count)
-        .slice(0, 4);
+    // Ensure that 'repos' is an array
+    const topRepos = Array.isArray(repos)
+        ? repos
+              .sort((a: { stargazers_count: number }, b: { stargazers_count: number }) => b.stargazers_count - a.stargazers_count)
+              .slice(0, 4)
+        : [];
 
     return {
         props: { stats, topRepos },
