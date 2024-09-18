@@ -82,7 +82,7 @@ const Nav = () => {
                 <div className="flex flex-row items-center justify-center gap-2 xs:gap-4">
                     <LinkButton
                         title="GitHub"
-                        href={"https://github.com/GuptaSatveek"}
+                        href={"https://github.com/Satveek-Gupta"}
                         icon={
                             <SiGithub className="w-6 h-6 cursor-pointer hover:fill-white fill-gray-400 transition-colors" />
                         }
