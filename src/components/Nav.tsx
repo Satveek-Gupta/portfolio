@@ -103,7 +103,7 @@ const Nav = () => {
                     />
                     <LinkButton
                         title="Email"
-                        href={"mailto:hello@satvikg.me"}
+                        href={"mailto:hello@satveek.dev"}
                         icon={
                             <FiMail className="w-6 h-6 cursor-pointer hover:stroke-white stroke-gray-400 transition-colors" />
                         }
@@ -172,7 +172,7 @@ const Nav = () => {
                                     icon={<SiLinkedin className="w-6 h-6 cursor-pointer" />}
                                 />
                                 <LinkButton
-                                    href={"mailto:hello@satvikg.me"}
+                                    href={"mailto:hello@satveek.dev"}
                                     icon={<FiMail className="w-6 h-6 cursor-pointer" />}
                                 />
                             </div>
