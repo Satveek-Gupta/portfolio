@@ -15,4 +15,3 @@ SATVEEK GUPTA
 - https://satveek.dev/github
 - https://satveek.dev/twitter
 - https://satveek.dev/linkedin
-
