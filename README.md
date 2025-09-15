@@ -12,9 +12,7 @@ SATVEEK GUPTA
 - Uses TailwindCSS, for easy light/dark theme configuration
 
 **Redirects:**
-- https://satvikg.me/github
-- https://satvikg.me/twitter
-- https://satvikg.me/linkedin
+- https://satveek.dev/github
+- https://satveek.dev/twitter
+- https://satveek.dev/linkedin
 
-
-<sub>**Design heavily inspired by [Alistair](https://github.com/alii)'s [personal site](https://alistair.sh)**</sub>
