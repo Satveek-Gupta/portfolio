@@ -20,6 +20,7 @@ import {
 import { FaJava } from "react-icons/fa";
 import { TechItem } from "../components/TechItem";
 import RepoItem from "../components/RepoItem";
+import SponsorCard from "../components/SponsorCard";
 
 interface AppProps {
     stats: Record<string, number>;
@@ -35,10 +36,10 @@ const Index = ({ stats, topRepos }: AppProps) => {
             transition={{ ease: "easeOut", duration: 0.15 }}
             className="mt-24 w-full mb-32"
         >
-            <h1 className="mt-36 font-bold text-4xl md:text-5xl mb-4">Hey, I'm Satveek 👋</h1>
+            <h1 className="mt-36 font-bold text-4xl md:text-5xl mb-4">Hey, I'm Satveek 👋🏻</h1>
             <p className="text-gray-800 dark:text-gray-300 leading-6 tracking-wide mb-12">
-                I'm a self-taught cloud engineer from India. As a Cloud Engineer, I am a highly skilled professional 
-                dedicated to designing, implementing, and managing cloud-based solutions that empower businesses to 
+                I'm a self-taught cloud engineer from India. As a Cloud Engineer, I am a highly skilled professional
+                dedicated to designing, implementing, and managing cloud-based solutions that empower businesses to
                 thrive in the digital era.
             </p>
 
@@ -105,6 +106,10 @@ const Index = ({ stats, topRepos }: AppProps) => {
                     );
                 })}
             </div>
+            
+            <h2 className="font-medium text-3xl mb-4">Support Me 🤝🏻</h2>
+            <SponsorCard />
+        
         </motion.div>
     );
 };
@@ -118,8 +123,8 @@ export async function getStaticProps() {
     // Ensure that 'repos' is an array
     const topRepos = Array.isArray(repos)
         ? repos
-              .sort((a: { stargazers_count: number }, b: { stargazers_count: number }) => b.stargazers_count - a.stargazers_count)
-              .slice(0, 4)
+            .sort((a: { stargazers_count: number }, b: { stargazers_count: number }) => b.stargazers_count - a.stargazers_count)
+            .slice(0, 4)
         : [];
 
     return {
